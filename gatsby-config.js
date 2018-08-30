@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Matthew Hill | Ninja Resume",
+    title: "Matthew Hill | A Ninja Resume",
     author: "Matthew Hill",
     description: "A place to get to know the man behind the ninja."
   },
