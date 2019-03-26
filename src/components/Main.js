@@ -15,9 +15,10 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
-          <p>This content is still a work in progress. By the way, check out my <a href="#work">awesome work</a>.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+          <h3>The tip of the iceberg</h3>
+          <span className="image main"><img src={pic01} alt="Tip of the Iceberg" /></span>
+          <p>My legal name is Matthew Hill. I also go by Mateo. </p>
+          <p>As you may have heard, I am an experienced software quality assurance engineer. I am also ISTQB certified. My attention to detail and passion for software development are just the tip of the iceberg.</p>
           {close}
         </article>
 
@@ -32,7 +33,8 @@ class Main extends React.Component {
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Currently a man of mystery. Learn more about me soon!</p>
+          <p>This content is always a work in progress, just like you and I. Life, to me, is about continuous improvement. Similar to continuous integration in software, we should be continuously fixing our personal defects and improving upon ourselves. By the way, check out my <a href="#work">awesome work</a>.</p>
+          <p></p>
           {close}
         </article>
 
