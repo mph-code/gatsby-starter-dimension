@@ -8,7 +8,7 @@ module.exports = {
     title: "Matthew Hill | A Ninja Resume",
     author: "Matthew Hill",
     description: "A place to get to know the man behind the ninja."
->>>>>>> 87a0a62a98bc85559a81e07a016a8c3283797478
+>>>>>>>
   },
   plugins: [
     'gatsby-plugin-react-helmet',
