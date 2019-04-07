@@ -18,7 +18,8 @@ class Main extends React.Component {
           <h3>The tip of the iceberg</h3>
           <span className="image main"><img src={pic01} alt="Tip of the Iceberg" /></span>
           <p>My legal name is Matthew Hill. I also go by Mateo. </p>
-          <p>As you may have heard, I am an experienced software quality assurance engineer. I am also ISTQB certified. My attention to detail and passion for software development are just the tip of the iceberg.</p>
+          <p>As you may have heard, I am an experienced Software Quality Assurance Engineer. I am also ISTQB certified. My attention to detail and passion for software and the development life cycle are just the tip of the iceberg. Check out the other sections to learn more.</p>
+          <p>My experience and skills are also not limited to Quality Assurance. I have a plethora of customer service experience in both a technical and non-technical environment, in addition to some project management experience. Other experiences include conducting software training, working with e-mail marketing campaigns and much more. View my <a href="https://www.résumé.co">resume</a> for more information.</p>
           {close}
         </article>
 
