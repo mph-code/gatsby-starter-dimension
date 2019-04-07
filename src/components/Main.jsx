@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import pic01 from '../images/iceberg.jpg'
 import pic02 from '../images/sky-bg.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic03 from '../images/about.jpg'
 
 class Main extends React.Component {
   render() {
