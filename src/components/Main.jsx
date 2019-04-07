@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/iceberg.jpg'
-import pic02 from '../images/pic02.jpg'
+import pic02 from '../images/sky-bg.jpg'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -24,9 +24,10 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <span className="image main"><img src={pic02} alt="Sky" /></span>
+          <p>I have become increasingly more interested in creating new things whenever I can, feeling an immense sense of urgency to make my mark. There are several projects I am currently working on. I recently set up a blog, Coding Saga, for documenting some of my accomplishments during the journey to quench my infinite thirst for knowledge. I will translate some of my work and things I learn into tutorials and articles. The blog is currently still in its infancy, but can be found at https://www.codingsa.ga.</p>
+          <p>Some of my current and future projects include various web scrapers and automations, a trello tool, GitHub automation, Spotify playlist automations and a bookmarking/web-clipping solution that uses machine learning for tagging intelligence. I also am very interested in working with APIs to automate tasks, similar to the awesomeness of <a href="https://www.zapier.com">Zapier</a>.</p>
+          <p>The languages and technologies I primarily tend to work with are Python, Java, Selenium and JavaScript. Areas I am interested in or working to improve include, but are not likely limited to, React, Node.js, AI/Machine Learning, GraphQL, serverless computing and many others. Let's not kid ourselves; I could list everything here.</p>
           {close}
         </article>
 
