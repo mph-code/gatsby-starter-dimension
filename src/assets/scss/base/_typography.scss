@@ -41,8 +41,9 @@
 		color: inherit;
 
 		&:hover {
-			border-bottom-color: transparent;
-		}
+			color: rgb(44, 65, 58);
+			border-bottom-color: rgb(145, 82, 247);
+			background-color: rgb(82, 247, 192);		}
 	}
 
 	strong, b {
