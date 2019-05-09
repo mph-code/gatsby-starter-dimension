@@ -36,14 +36,12 @@
 			'background-color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
 		));
-		border-bottom: solid 3px rgb(248, 100, 100);
+		border-bottom: dotted 1px _palette(fg-light);
 		text-decoration: none;
 		color: inherit;
 
 		&:hover {
-			color: rgb(44, 65, 58);
-			border-bottom-color: rgb(145, 82, 247);
-			background-color: rgb(82, 247, 192);		
+			border-bottom-color: transparent;	
 		}
 	}
 
