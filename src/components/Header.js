@@ -1,5 +1,5 @@
-import React from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -25,8 +25,8 @@ const Header = (props) => (
 )
 
 Header.propTypes = {
-    onOpenArticle: PropTypes.func,
-    timeout: PropTypes.bool
+  onOpenArticle: PropTypes.func,
+  timeout: PropTypes.bool,
 }
 
 export default Header
